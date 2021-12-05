@@ -402,8 +402,9 @@ section{
 
 .portfolio .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(80rem, 1fr));
     gap:2rem;
+    
 }
 
 .portfolio .box-container .box{
@@ -412,6 +413,7 @@ section{
     overflow:hidden;
     position: relative;
     border:1rem solid transparent;
+    margin: 0 auto;
 }
 
 .portfolio .box-container .box img{
